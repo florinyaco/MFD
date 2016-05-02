@@ -1,0 +1,574 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+input{
+  width:100%;
+  height:70px;
+}
+.iconlist{
+  display:inline-flex;
+}
+.iconlist img{
+  padding-right:10px;
+}
+.no-margin-left {
+  margin-left: 0;
+}
+
+/* line 2, ../scss/base/_base.scss */
+.content1 img {
+  width: 100%;
+}
+/* line 6, ../scss/base/_base.scss */
+.content1 .content1-left .men {
+  width: 300px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 50px;
+}
+/* line 12, ../scss/base/_base.scss */
+.content1 .content1-left .men .men-title {
+  color: #f0626e;
+  font-size: 3em;
+  text-align: center;
+}
+/* line 17, ../scss/base/_base.scss */
+.content1 .content1-left .men .men-content {
+  color: white;
+  font-size: 1.3em;
+  text-align: center;
+}
+/* line 24, ../scss/base/_base.scss */
+.content1 .content1-right {
+  padding-left: 0;
+}
+/* line 26, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom {
+  padding-top: 17px;
+  position: relative;
+}
+/* line 30, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom:hover .baby {
+  display: block;
+}
+/* line 34, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom .baby {
+  width: 300px;
+  height: 60px;
+  background-color: #05aecc;
+  position: absolute;
+  bottom: 25px;
+  right: 0;
+  display: none;
+}
+/* line 42, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom .baby .baby-title {
+  font-size: 1.3em;
+  position: absolute;
+  margin: 15px;
+}
+/* line 46, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom .baby .baby-title a {
+  color: white;
+  text-decoration: none;
+}
+/* line 51, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom .baby .baby-button-gift {
+  position: absolute;
+  margin-left: 110px;
+  background-color: #00a1be;
+  border: none;
+  height: 60px;
+  width: 60px;
+  font-size: 2.5em;
+  color: white;
+  outline: none;
+}
+/* line 62, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom .baby .baby-button-cart {
+  position: absolute;
+  margin-left: 170px;
+  background-color: #f0626e;
+  border: none;
+  height: 60px;
+  width: 60px;
+  font-size: 2.5em;
+  color: white;
+  outline: none;
+}
+/* line 73, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom .baby .baby-price {
+  position: absolute;
+  margin-left: 230px;
+  background-color: #000;
+  border: none;
+  height: 60px;
+  width: 70px;
+  font-size: 1.3em;
+  color: white;
+  outline: none;
+  text-align: center;
+}
+/* line 84, ../scss/base/_base.scss */
+.content1 .content1-right .content1-right-bottom .baby .baby-price strong {
+  position: relative;
+  top: 15px;
+}
+
+/* line 94, ../scss/base/_base.scss */
+.content2 {
+  padding-top: 16px;
+}
+/* line 97, ../scss/base/_base.scss */
+.content2 .content2-left .input-group {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+/* line 107, ../scss/base/_base.scss */
+.content2 .content2-left .input-group .form-control {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* line 112, ../scss/base/_base.scss */
+.content2 .content2-left .fa-search {
+  color: white;
+  font-size: 3em;
+  padding-left: 15px;
+}
+
+/* line 120, ../scss/base/_base.scss */
+.content3 {
+  padding-top: 16px;
+}
+/* line 122, ../scss/base/_base.scss */
+.content3 .content3-title {
+  padding-left: 15px;
+  margin-bottom: 0;
+  color: #05aecc;
+  font-size: 2.5em;
+}
+/* line 128, ../scss/base/_base.scss */
+.content3 hr {
+  margin-top: 0;
+}
+/* line 132, ../scss/base/_base.scss */
+.content3 .carousel .left {
+  background: none;
+  right: 80px;
+  left: auto;
+}
+/* line 136, ../scss/base/_base.scss */
+.content3 .carousel .left .glyphicon-chevron-left {
+  top: -60px;
+  background-color: #3c3c3c;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 144, ../scss/base/_base.scss */
+.content3 .carousel .left .glyphicon-chevron-left:hover {
+  background-color: #f0626e;
+}
+/* line 149, ../scss/base/_base.scss */
+.content3 .carousel .right {
+  background: none;
+}
+/* line 151, ../scss/base/_base.scss */
+.content3 .carousel .right .glyphicon-chevron-right {
+  top: -60px;
+  background-color: #3c3c3c;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 159, ../scss/base/_base.scss */
+.content3 .carousel .right .glyphicon-chevron-right:hover {
+  background-color: #f0626e;
+}
+/* line 164, ../scss/base/_base.scss */
+.content3 .carousel .carousel-control {
+  opacity: inherit !important;
+}
+/* line 166, ../scss/base/_base.scss */
+.content3 .carousel .carousel-control:hover {
+  opacity: inherit !important;
+}
+
+/* line 1, ../scss/base/_mixins.scss */
+.no-margin-left {
+  margin-left: 0;
+}
+
+/* line 4, ../scss/base/_mixins.scss */
+.no-margin-right {
+  margin-right: 0;
+}
+
+/* line 7, ../scss/base/_mixins.scss */
+.no-margin-top {
+  margin-top: 0;
+}
+
+/* line 10, ../scss/base/_mixins.scss */
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+/* line 13, ../scss/base/_mixins.scss */
+.no-padding-right {
+  padding-right: 0;
+}
+
+/* line 16, ../scss/base/_mixins.scss */
+.no-padding-left {
+  padding-left: 0;
+}
+
+/* line 19, ../scss/base/_mixins.scss */
+.no-padding-top {
+  padding-top: 0;
+}
+
+/* line 22, ../scss/base/_mixins.scss */
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 3, ../scss/modules/_responsive.scss */
+  .navbar-bottom .navbar-nav {
+    margin: -1px;
+  }
+}
+/* line 6, ../scss/layouts/_header.scss */
+.menu-navbar .navbar {
+  margin-bottom: 10px;
+}
+/* line 9, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-top {
+  background-color: white;
+  border: none;
+  font-size: 1.3em;
+}
+/* line 14, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-middle {
+  min-height: 120px;
+  border: none;
+}
+/* line 18, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-middle .navbar-header .navbar-brand {
+  background-color: white;
+  height: auto;
+  padding: 24px 15px;
+}
+/* line 22, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-middle .navbar-header .navbar-brand img {
+  margin-top: -40px;
+}
+/* line 28, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-middle .navbar-collapse .navbar-nav {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+/* line 34, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-middle .navbar-collapse .navbar-right .button-blue {
+  min-height: 120px;
+  width: 130px;
+  background-color: #05aecc;
+  margin-right: 1em;
+}
+/* line 40, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-middle .navbar-collapse .navbar-right .button-red {
+  min-height: 120px;
+  width: 130px;
+  background-color: #f0626e;
+  margin-right: 1em;
+}
+/* line 45, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-middle .navbar-collapse .navbar-right .button-red:last-child {
+  margin-right: -13px;
+}
+/* line 49, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-middle .navbar-collapse .navbar-right .title {
+  padding-top: 40%;
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+}
+/* line 58, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom {
+  background-color: #05aecc;
+  border: none;
+}
+/* line 61, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .container-fluid {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+/* line 67, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .open {
+  border: 1px solid white;
+}
+/* line 69, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .open a:focus {
+  background-color: white !important;
+  color: #f0626e;
+}
+/* line 73, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .open:focus {
+  background-color: white;
+}
+/* line 77, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown {
+  margin-top: 1px;
+  border: none;
+  border-color: transparent;
+  border-image: none;
+  margin-right: 29px;
+}
+/* line 83, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-toggle {
+  color: white;
+  font-size: 1.3em;
+}
+/* line 87, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+  border: none;
+  margin: 0;
+  min-width: 260px;
+}
+/* line 91, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .item {
+  display: flex;
+}
+/* line 93, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .item .item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 99, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .item .item-text .item-title {
+  color: #f0626e;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+/* line 105, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .item .item-text .item-description {
+  font-size: 1em;
+}
+/* line 108, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .item .item-text .item-button {
+  background-color: #05aecc;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+}
+/* line 117, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .divider {
+  height: 3px;
+  margin: 15px 15px;
+}
+/* line 121, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .all-items {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #f0626e;
+}
+/* line 125, ../scss/layouts/_header.scss */
+.menu-navbar .navbar-bottom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .all-items:hover {
+  background: none;
+}
+
+
+body {
+  background: white; }
+
+.container {
+  max-width: 1200px; }
+
+
+
+.image
+{
+ opacity:1; 
+}
+.image:hover
+{
+    filter: brightness(50%);
+}
+
+footer{
+    margin-top:30px;
+    padding-top:20px;
+    border-top: 1px solid gray;
+    padding-bottom:20px;
+    min-height:340px;
+
+  }
+footer a{
+  display:block;
+  text-decoration:none;
+  color:black;
+}
+footer a:hover{
+  text-decoration:none;
+  color: black;
+}
+footer a:visited{
+  text-decoration:none;
+}
+.fotdiv
+  {
+    display:block;
+    float:left;
+    padding-right:50px;
+    line-height:25px;
+
+  }
+.fotdiv1{
+  overflow:hidden;
+}
+
+@media only screen and (max-width: 768px){
+  footer{
+  min-height:1000px;
+  }
+  .fotdiv1{
+    float:left;
+  }
+
+  }
+.whoweare{
+  padding:20px;
+  border-top: 1px solid gray;
+}
+.wholink{
+  color:#0099cc;
+  padding-left:20px;
+}
+.registernow{
+  padding-top:20px;
+
+}
+.registernow img{
+  width:100%;
+}
+.imgwidth{
+  width:100%;
+}
+.bottomdiv
+  {
+    padding:20px;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+  }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    text-align:center;
+    
+}
